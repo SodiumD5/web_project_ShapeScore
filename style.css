@@ -1,0 +1,42 @@
+body, html {
+    margin : 0; 
+    padding : 0;
+    overflow : hidden;
+
+    #resizeDiv {
+        background-color: lightblue;
+        position: absolute; /* 요소 위치를 절대값으로 설정 */
+    }
+}
+
+canvas {
+    border : 2px solid black;
+}
+
+#timer {
+    position: absolute;
+    transform : translate(-50%,-50%);
+    top: 20%;
+    left: 50%;
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    font : bold italic 25pt 나눔고딕;
+}
+
+#site_name {
+    position: absolute;
+    top : 10px;
+    left : 10px;
+    padding : 5px;
+    color : black;
+    font : bold italic 20pt 나눔고딕;
+}
+
+#user_name {
+    position: absolute;
+    top : 10px;
+    transform : translate(100%,-50%);
+    color : black;
+    font : bold italic 20pt 나눔고딕;
+}
